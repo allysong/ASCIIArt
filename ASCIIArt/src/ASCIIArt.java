@@ -16,6 +16,54 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		System.out.println("This is a balloon flying away from a sharp object.\n");
+		balloon();
+		point();
+	}
+	
+	public static void balloon () {
+		System.out.println("    ••••••••");
+		System.out.println("  ••       •••");
+		System.out.println(" ••         ••");
+		System.out.println("••    • •    ••");
+		System.out.println(" ••  \" o \"  ••");
+		System.out.println(" •••       •••");
+		System.out.println("   ••     ••");
+		balloonBot();
+		balloonBot();
+		stringMid();
+		stringLeft();
+		stringLeft();
+		stringMid();
+		stringRight();
+		stringRight();
+		stringMid();
+		stringLeft();
+		stringLeft();
+		System.out.println();
+	}
+	
+	public static void balloonBot () {
+		System.out.println("     •••••");
+	}
+	
+	public static void stringMid () {
+		System.out.println("      ••");
+	}
+	
+	public static void stringLeft () {
+		System.out.println("     ••");
+	}
+	
+	public static void stringRight () {
+		System.out.println("       ••");
+	}
+	
+	public static void point () {
+		System.out.println("     /\\");
+		System.out.println("    /  \\");
+		System.out.println("   / v  \\");
+		System.out.println("  / •_•  \\");
+		System.out.println("  \\ | |  /");
 	}
 }
